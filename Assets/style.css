@@ -1,0 +1,51 @@
+.jumbotron {
+    text-align: center;
+    line-height: .5;
+    margin: 0em;
+    border: 0em;
+}
+
+.navbar {
+    text-align: center;
+}
+.searcharea {
+    background-color: #c0d5f5;
+    padding: 20px;
+}
+
+.prevSearches {
+
+    index:0
+}
+.list-group{
+    index:1
+}
+
+.one-fifth {
+    box-sizing: border-box;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.one-fifth:first-child {
+    margin-left: 0px;
+}
+
+.one-fifth:last-child{
+    margin-right: 0px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+#searchbtn{
+    /* padding: 6px 5px 0px 5px; */
+    font: white
+
+}
